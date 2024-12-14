@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List - GLP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Todo List 2024</h1>
+        <button id="toggleDarkMode">Dark Mode</button>
+    </header>
+
+    <main>
+        <div class="todo-container">
+            <form id="todoForm">
+                <input type="text" id="todoInput" placeholder="Add a new todo" required>
+                <input type="file" id="imageInput" accept="image/*">
+                <button type="submit">Add</button>
+            </form>
+            <ul id="todoList"></ul>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Todo List | GLP</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
